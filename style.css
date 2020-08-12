@@ -1,0 +1,78 @@
+body {
+    background: #f5b5cd;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.title {
+    font-size: 150px;
+    color: #010101;
+    transition: all .5s linear 0s;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -15px;
+    margin-top: -220px;
+}
+
+.marquee {
+  font-size: 70px;
+}
+
+.presentation {
+  padding-left: 10px;
+  font-size: 50px;
+  font-weight: 400px;
+}
+
+.linkblock {
+  color: black;
+  font-size: 50px;
+}
+
+.firstblock {
+  width: 250, 50px
+  padding-top: 10px;
+  background: #fca311;
+  border: 10px solid;
+  margin-bottom: 40px;
+  height: 250px;
+}
+
+.secondblock {
+  width: 250, 50px
+  padding-top: 10px;
+  background: #2c6e49;
+  border: 10px solid;
+  margin-bottom: 40px;
+  height: 250px;
+  padding-top: 40px;
+}
+
+.thirdblock {
+  width: 250, 50px;
+  padding-top: 10px;
+  background: #64a6bd;
+  border: 10px solid;
+  margin-bottom: 40px;
+  height: 250px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
